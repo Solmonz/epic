@@ -1,4 +1,7 @@
-2023-11-02 04:35:51 | INFO    | __main__:stash:140 | run - {'image': '20231029', 'version': '0.9.2.post3', 'role': 'EpicPlayer', 'headless': True, 'self_supervised': True}
-2023-11-02 04:36:06 | DEBUG    | __main__:create_tasks:65 | Put task - {'title': 'Tandem: A Tale of Shadows', 'url': 'https://store.epicgames.com/en-US/p/tandem-a-tale-of-shadows-c3f55e'}
-2023-11-02 04:36:06 | DEBUG    | __main__:create_tasks:65 | Put task - {'title': 'The Evil Within 2', 'url': 'https://store.epicgames.com/en-US/p/the-evil-within-2'}
-2023-11-02 04:36:06 | SUCCESS    | __main__:prelude_with_context:84 | Pass claim task - {'reason': 'All free games are in my library', 'stage': 'context-prelude'}
+2023-11-03 04:34:59 | INFO    | __main__:stash:140 | run - {'image': '20231029', 'version': '0.9.2.post3', 'role': 'EpicPlayer', 'headless': True, 'self_supervised': True}
+2023-11-03 04:35:05 | DEBUG    | __main__:create_tasks:65 | Put task - {'title': 'Turnip Boy Commits Tax Evasion', 'url': 'https://store.epicgames.com/en-US/p/turnip-boy-commits-tax-evasion-fb2084'}
+2023-11-03 04:35:09 | INFO    | epic_games.agent:claim_weekly_games:237 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/turnip-boy-commits-tax-evasion-fb2084'}
+2023-11-03 04:35:17 | INFO    | epic_games.agent:claim_weekly_games:268 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
+2023-11-03 04:35:20 | INFO    | epic_games.agent:claim_weekly_games:270 | claim_weekly_games - {'action': 'click payment button'}
+2023-11-03 04:35:26 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_rank_models:414 | rank model - {'resnet': 'nested_smallest_bird2310.onnx', 'prompt': 'Please click on each image containing the smallest аnimаl.'}
+2023-11-03 04:35:34 | SUCCESS    | epic_games.agent:claim_weekly_games:281 | claim_weekly_games - {'action': 'success', 'url': 'https://store.epicgames.com/en-US/cart/success'}
