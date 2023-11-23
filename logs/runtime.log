@@ -1,4 +1,20 @@
-2023-11-23 04:34:54 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post1', 'role': 'EpicPlayer', 'headless': True}
-2023-11-23 04:35:00 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'Surviving the Aftermath', 'url': 'https://store.epicgames.com/en-US/p/surviving-the-aftermath'}
-2023-11-23 04:35:00 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'EARTHLOCK', 'url': 'https://store.epicgames.com/en-US/p/earthlock-e7d979'}
-2023-11-23 04:35:00 | SUCCESS    | __main__:prelude_with_context:85 | Pass claim task - {'reason': 'All free games are in my library', 'stage': 'context-prelude'}
+2023-11-24 04:34:36 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post1', 'role': 'EpicPlayer', 'headless': True}
+2023-11-24 04:34:45 | INFO    | __main__:claim_epic_games:97 | Try to flush cookie - {'task': 'claim_epic_games'}
+2023-11-24 04:34:48 | SUCCESS    | epic_games.agent:_login:253 | login - {'result': 'Successfully refreshed tokens'}
+2023-11-24 04:34:57 | SUCCESS    | epic_games.agent:flush_token:280 | flush_token - {'path': PosixPath('/home/runner/work/epic/epic/epic/user_data_dir/epic-games@oceanxux/ctx_cookie.json')}
+2023-11-24 04:34:58 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'Deliver Us Mars', 'url': 'https://store.epicgames.com/en-US/p/deliver-us-mars'}
+2023-11-24 04:34:58 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/deliver-us-mars'}
+2023-11-24 04:35:05 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
+2023-11-24 04:35:07 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
+2023-11-24 04:35:12 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click on the most similar object to the following reference ѕһaре:'}
+2023-11-24 04:35:14 | DEBUG    | hcaptcha_challenger.agents.playwright.control:lookup_objects:317 | handle task - {'catch_model': 'most_similar_object_hexagon_2309_yolov8n-seg.onnx', 'ash': 'please click on the most similar object to the following reference shape: default'}
+2023-11-24 04:35:16 | DEBUG    | hcaptcha_challenger.agents.playwright.control:lookup_objects:317 | handle task - {'catch_model': 'most_similar_object_hexagon_2309_yolov8n-seg.onnx', 'ash': 'please click on the most similar object to the following reference shape: default'}
+2023-11-24 04:35:18 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
+2023-11-24 04:35:50 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/deliver-us-mars'}
+2023-11-24 04:35:59 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
+2023-11-24 04:36:01 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
+2023-11-24 04:36:06 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click on the most similar object to the following reference ѕһaрe:'}
+2023-11-24 04:36:08 | DEBUG    | hcaptcha_challenger.agents.playwright.control:lookup_objects:317 | handle task - {'catch_model': 'most_similar_object_hexagon_2309_yolov8n-seg.onnx', 'ash': 'please click on the most similar object to the following reference shape: default'}
+2023-11-24 04:36:10 | DEBUG    | hcaptcha_challenger.agents.playwright.control:lookup_objects:317 | handle task - {'catch_model': 'most_similar_object_hexagon_2309_yolov8n-seg.onnx', 'ash': 'please click on the most similar object to the following reference shape: default'}
+2023-11-24 04:36:12 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
+2023-11-24 04:36:16 | SUCCESS    | epic_games.agent:claim_weekly_games:339 | claim_weekly_games - {'action': 'success', 'url': 'https://store.epicgames.com/en-US/cart/success'}
