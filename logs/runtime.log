@@ -1,5 +1,16 @@
-2023-12-21 04:35:47 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
-2023-12-21 04:35:54 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'DNF Duel', 'url': 'https://store.epicgames.com/en-US/p/dnf-duel-07d055'}
-2023-12-21 04:35:55 | ERROR    | hcaptcha_challenger.onnx.modelhub:flush_runtime_assets:190 | 0 - {}
-2023-12-21 04:35:55 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/dnf-duel-07d055'}
-2023-12-21 04:36:09 | SUCCESS    | epic_games.agent:claim_weekly_games:314 | Pass claim task - {'reason': 'Free games not added to shopping cart'}
+2023-12-22 04:34:59 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
+2023-12-22 04:35:05 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'Melvor Idle', 'url': 'https://store.epicgames.com/en-US/p/melvor-idle-b6a9b3'}
+2023-12-22 04:35:10 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/melvor-idle-b6a9b3'}
+2023-12-22 04:35:22 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
+2023-12-22 04:35:24 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
+2023-12-22 04:35:29 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Ρleaѕe click еach image cοntaining a сup'}
+2023-12-22 04:35:30 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like cup.', "This is a picture that don't look like cup."], 'prompt': 'Ρleaѕe click еach image cοntaining a сup', 'timit': '0.880s'}
+2023-12-22 04:35:41 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
+2023-12-22 04:36:13 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/melvor-idle-b6a9b3'}
+2023-12-22 04:36:22 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
+2023-12-22 04:36:24 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
+2023-12-22 04:36:29 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click on any item associated with cold climates.'}
+2023-12-22 04:36:30 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like please click on any item associated with cold climates.', "This is a picture that don't look like please click on any item associated with cold climates."], 'prompt': 'Please click on any item associated with cold climates.', 'timit': '0.763s'}
+2023-12-22 04:36:44 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
+2023-12-22 04:37:16 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/melvor-idle-b6a9b3'}
+2023-12-22 04:37:36 | SUCCESS    | epic_games.agent:claim_weekly_games:314 | Pass claim task - {'reason': 'Free games not added to shopping cart'}
