@@ -1,26 +1,26 @@
-2024-02-11 04:35:16 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
-2024-02-11 04:35:22 | WARNING    | epic_games.agent:get_order_history:467 | Failed to get order history, cookie may have expired - {}
-2024-02-11 04:35:23 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'Doki Doki Literature Club Plus!', 'url': 'https://store.epicgames.com/en-US/p/doki-doki-literature-club-plus'}
-2024-02-11 04:35:23 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'Lost Castle', 'url': 'https://store.epicgames.com/en-US/p/lost-castle-abb2e2'}
-2024-02-11 04:35:27 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/doki-doki-literature-club-plus'}
-2024-02-11 04:35:30 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/lost-castle-abb2e2'}
-2024-02-11 04:35:39 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
-2024-02-11 04:35:41 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
-2024-02-11 04:35:46 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click on the object that differs from others.'}
-2024-02-11 04:35:51 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
-2024-02-11 04:36:24 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/doki-doki-literature-club-plus'}
-2024-02-11 04:36:29 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/lost-castle-abb2e2'}
-2024-02-11 04:36:37 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
-2024-02-11 04:36:40 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
-2024-02-11 04:36:45 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Pleaѕe click on the object tһat differs from others.'}
-2024-02-11 04:36:50 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
-2024-02-11 04:37:22 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/doki-doki-literature-club-plus'}
-2024-02-11 04:37:27 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/lost-castle-abb2e2'}
-2024-02-11 04:37:37 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
-2024-02-11 04:37:40 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
-2024-02-11 04:37:45 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Pleaѕe click on the object that differs from others.'}
-2024-02-11 04:37:49 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
-2024-02-11 04:38:21 | ERROR    | __main__:run:158 | An error has been caught in function 'run', process 'MainProcess' (3517), thread 'MainThread' (140236643003264): - {}
+2024-02-12 04:36:31 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
+2024-02-12 04:36:37 | WARNING    | epic_games.agent:get_order_history:467 | Failed to get order history, cookie may have expired - {}
+2024-02-12 04:36:37 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'Doki Doki Literature Club Plus!', 'url': 'https://store.epicgames.com/en-US/p/doki-doki-literature-club-plus'}
+2024-02-12 04:36:37 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'Lost Castle', 'url': 'https://store.epicgames.com/en-US/p/lost-castle-abb2e2'}
+2024-02-12 04:36:42 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/doki-doki-literature-club-plus'}
+2024-02-12 04:36:45 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/lost-castle-abb2e2'}
+2024-02-12 04:36:54 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
+2024-02-12 04:36:56 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
+2024-02-12 04:37:01 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click οn the objeсt that differs frοm others.'}
+2024-02-12 04:37:06 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
+2024-02-12 04:37:38 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/doki-doki-literature-club-plus'}
+2024-02-12 04:37:43 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/lost-castle-abb2e2'}
+2024-02-12 04:37:52 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
+2024-02-12 04:37:55 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
+2024-02-12 04:38:00 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please cliсk on the objeсt that differs from the others.'}
+2024-02-12 04:38:05 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
+2024-02-12 04:38:37 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/doki-doki-literature-club-plus'}
+2024-02-12 04:38:42 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/lost-castle-abb2e2'}
+2024-02-12 04:38:51 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
+2024-02-12 04:38:53 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
+2024-02-12 04:38:58 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Pleаse click on the object thаt differs from the others.'}
+2024-02-12 04:39:03 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
+2024-02-12 04:39:35 | ERROR    | __main__:run:158 | An error has been caught in function 'run', process 'MainProcess' (3595), thread 'MainThread' (139950641507200): - {}
 Traceback (most recent call last):
   File "/home/runner/work/epic/epic/epic/src/claim.py", line 151, in stash
     await self.claim_epic_games(context)
